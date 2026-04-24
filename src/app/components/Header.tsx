@@ -20,7 +20,7 @@ export function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/src/imports/logo.svg" alt="AKKANO Logo" className="h-8 w-auto" />
+            <img src="/logo.svg" alt="AKKANO Logo" className="h-8 w-auto" />
           </div>
 
           {/* CTA Button */}

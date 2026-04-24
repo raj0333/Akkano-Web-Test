@@ -59,7 +59,7 @@ export function WhatYouGet() {
 
         <div className="grid lg:grid-cols-[auto_1fr] gap-12 lg:gap-16 items-center">
           <div className="w-full max-w-[580px] xl:max-w-[580px] mx-auto lg:mx-0">
-            <img src="/src/imports/frame.svg" alt="Sample Report Book" className="w-full" />
+            <img src="/frame.svg" alt="Sample Report Book" className="w-full" />
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

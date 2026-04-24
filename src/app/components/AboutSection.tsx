@@ -28,7 +28,7 @@ export function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <img src="/src/imports/video.svg" alt="Happy couple planning together" className="w-full drop-shadow-xl rounded-2xl" />
+            <img src="/video.svg" alt="Happy couple planning together" className="w-full drop-shadow-xl rounded-2xl" />
           </motion.div>
 
           {/* Content */}

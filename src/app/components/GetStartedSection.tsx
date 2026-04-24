@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import coupleImage from '../../imports/couple.png';
+
 
 export function GetStartedSection() {
   const leftItems = [
@@ -70,7 +70,7 @@ export function GetStartedSection() {
                 viewport={{ once: true }}
                 className="flex items-start gap-4"
               >
-                <img src="/src/imports/icon.svg" alt="Check" className="w-6 h-6 md:w-7 md:h-7 flex-shrink-0 mt-0.5" />
+                <img src="/icon.svg" alt="Check" className="w-6 h-6 md:w-7 md:h-7 flex-shrink-0 mt-0.5" />
                 <div>
                   <h3 className="text-white text-base md:text-[17px] font-medium leading-snug mb-2">
                     {item.title}
@@ -92,7 +92,7 @@ export function GetStartedSection() {
             className="relative flex justify-center w-full max-w-[360px] md:max-w-[450px] mx-auto my-8 lg:my-0 lg:mr-[40px]"
           >
             <img
-              src={coupleImage}
+              src="/couple.png"
               alt="Couple"
               className="relative z-10 max-w-fit object-contain drop-shadow-2xl scale-110"
             />
@@ -109,7 +109,7 @@ export function GetStartedSection() {
                 viewport={{ once: true }}
                 className="flex items-start gap-4"
               >
-                <img src="/src/imports/icon.svg" alt="Check" className="w-6 h-6 md:w-7 md:h-7 flex-shrink-0 mt-0.5" />
+                <img src="/icon.svg" alt="Check" className="w-6 h-6 md:w-7 md:h-7 flex-shrink-0 mt-0.5" />
                 <div>
                   <h3 className="text-white text-base md:text-[17px] font-medium leading-snug mb-2">
                     {item.title}

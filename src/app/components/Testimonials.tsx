@@ -1,5 +1,5 @@
 import React from 'react';
-import quoteSvg from '../../imports/quote.svg';
+
 
 export function Testimonials() {
   const baseTestimonials = [
@@ -7,19 +7,19 @@ export function Testimonials() {
       text: "We thought our patterns were just 'how marriage is after two decades.' This assessment helped us see that a lot of our tension wasn’t personal. It helped us be gentler with each other again. Honestly, it came at the right time.",
       name: "Aisyah & Firdaus",
       years: "Married 22 years",
-      image: "/src/imports/test-1.svg",
+      image: "/test-1.svg",
     },
     {
       text: "We thought we knew each other well—until the Akkano report showed us why we kept circling the same arguments. It didn’t ‘fix’ us; it gave us a shared language. Decisions that used to take weeks now take hours, without resentment.",
       name: "Amelia & Josh",
       years: "Married 18 years",
-      image: "/src/imports/test-2.svg",
+      image: "/test-2.svg",
     },
     {
       text: "We didn’t realise how many things we were assuming about each other. This gave us words for conversations we always avoided. Instead of worrying whether we’re too different, we now understand how to manage those differences better.",
       name: "Mei Lin & Jun Wei",
       years: "Married 9 years",
-      image: "/src/imports/test-3.svg",
+      image: "/test-3.svg",
     },
   ];
 
@@ -98,7 +98,7 @@ export function Testimonials() {
                 <div className="bg-white rounded-[24px] shadow-[0_4px_24px_rgba(0,0,0,0.04)] p-8 md:p-10 h-full flex items-start gap-4 text-left">
                   {/* Quote Icon */}
                   <img
-                    src={quoteSvg}
+                    src="/quote.svg"
                     alt="quote"
                     className="w-12 h-12 object-contain flex-shrink-0 opacity-40 mt-1"
                   />
