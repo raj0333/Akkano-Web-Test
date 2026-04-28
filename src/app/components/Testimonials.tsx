@@ -93,7 +93,7 @@ export function Testimonials() {
             {testimonials.map((item, index) => (
               <div
                 key={index}
-                className="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3"
+                className="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-0 mx-3"
               >
                 <div className="bg-white rounded-[24px] shadow-[0_4px_24px_rgba(0,0,0,0.04)] p-8 md:p-10 h-full flex items-start gap-4 text-left">
                   {/* Quote Icon */}

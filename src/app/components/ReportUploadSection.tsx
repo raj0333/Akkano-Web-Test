@@ -29,8 +29,8 @@ export function ReportUploadSection() {
 
   return (
     <section className="bg-[#f8f9fc] py-16 md:py-20 px-4 flex justify-center border-t border-gray-100">
-      <div className="max-w-4xl w-full">
-        <div className="relative md:ml-[10%]">
+      <div className="max-w-7xl w-full">
+        <div className="relative">
           {/* Vertical Line */}
           <div className="absolute left-[11.5px] top-[24px] bottom-[12px] w-[1px] bg-[#cbd5e1] z-0"></div>
 
@@ -46,18 +46,18 @@ export function ReportUploadSection() {
             </div>
 
             <div className="ml-10">
-              <div className="grid md:grid-cols-2 gap-4 mb-6 max-w-3xl">
+              <div className="grid md:grid-cols-2 gap-4 mb-6 max-w-7xl">
                 {/* Upload Box 1 */}
-                <div 
+                <div
                   onClick={() => fileInput1Ref.current?.click()}
                   onDrop={(e) => handleDrop(e, setFile1)}
                   onDragOver={handleDragOver}
                   className="border border-dashed border-[#d1d5db] bg-[#f4f5f9] rounded-[4px] p-8 flex flex-col items-center justify-center text-center cursor-pointer hover:bg-[#eceef2] transition-colors min-h-[140px] relative"
                 >
-                  <input 
-                    type="file" 
-                    className="hidden" 
-                    ref={fileInput1Ref} 
+                  <input
+                    type="file"
+                    className="hidden"
+                    ref={fileInput1Ref}
                     onChange={(e) => handleFileChange(e, setFile1)}
                     accept=".pdf,.doc,.docx"
                   />
@@ -65,7 +65,7 @@ export function ReportUploadSection() {
                     <div className="flex flex-col items-center">
                       <FileCheck className="w-[24px] h-[24px] text-green-600 mb-2" />
                       <p className="text-[12px] text-gray-800 font-medium truncate max-w-[200px] px-2">{file1.name}</p>
-                      <button 
+                      <button
                         onClick={(e) => { e.stopPropagation(); setFile1(null); }}
                         className="text-[10px] text-gray-400 hover:text-red-500 mt-2 underline"
                       >
@@ -85,16 +85,16 @@ export function ReportUploadSection() {
                 </div>
 
                 {/* Upload Box 2 */}
-                <div 
+                <div
                   onClick={() => fileInput2Ref.current?.click()}
                   onDrop={(e) => handleDrop(e, setFile2)}
                   onDragOver={handleDragOver}
                   className="border border-dashed border-[#d1d5db] bg-[#f4f5f9] rounded-[4px] p-8 flex flex-col items-center justify-center text-center cursor-pointer hover:bg-[#eceef2] transition-colors min-h-[140px] relative"
                 >
-                  <input 
-                    type="file" 
-                    className="hidden" 
-                    ref={fileInput2Ref} 
+                  <input
+                    type="file"
+                    className="hidden"
+                    ref={fileInput2Ref}
                     onChange={(e) => handleFileChange(e, setFile2)}
                     accept=".pdf,.doc,.docx"
                   />
@@ -102,7 +102,7 @@ export function ReportUploadSection() {
                     <div className="flex flex-col items-center">
                       <FileCheck className="w-[24px] h-[24px] text-green-600 mb-2" />
                       <p className="text-[12px] text-gray-800 font-medium truncate max-w-[200px] px-2">{file2.name}</p>
-                      <button 
+                      <button
                         onClick={(e) => { e.stopPropagation(); setFile2(null); }}
                         className="text-[10px] text-gray-400 hover:text-red-500 mt-2 underline"
                       >
@@ -122,14 +122,13 @@ export function ReportUploadSection() {
                 </div>
               </div>
 
-              <div className="flex justify-center max-w-3xl">
-                <button 
+              <div className="flex justify-center max-w-7xl">
+                <button
                   disabled={!isContinueEnabled}
-                  className={`font-semibold text-[11px] px-8 py-2 rounded shadow-sm uppercase tracking-wide transition-colors ${
-                    isContinueEnabled 
-                      ? 'bg-[#0f4c3a] text-white hover:bg-[#0a3629] cursor-pointer' 
-                      : 'bg-[#e2e4ea] text-[#94a3b8] cursor-not-allowed'
-                  }`}
+                  className={`font-semibold text-[11px] px-8 py-2 rounded shadow-sm uppercase tracking-wide transition-colors ${isContinueEnabled
+                    ? 'bg-[#0f4c3a] text-white hover:bg-[#0a3629] cursor-pointer'
+                    : 'bg-[#e2e4ea] text-[#94a3b8] cursor-not-allowed'
+                    }`}
                 >
                   Continue
                 </button>

@@ -40,14 +40,14 @@ export function GetStartedSection() {
 
   return (
     <section className="bg-[#0f4c3a] py-16 md:py-24 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-16 md:mb-20"
+          className="text-center mb-8 md:mb-8"
         >
           <h2 className="text-white text-3xl md:text-4xl lg:text-[40px] font-medium leading-tight mb-4 tracking-tight">
             Get The Relationships You Want
@@ -94,7 +94,7 @@ export function GetStartedSection() {
             <img
               src="/couple.png"
               alt="Couple"
-              className="relative z-10 max-w-fit object-contain drop-shadow-2xl scale-110"
+              className="relative mt-[60px] z-10 max-w-[585px] object-contain drop-shadow-2xl scale-110"
             />
           </motion.div>
 

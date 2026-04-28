@@ -36,7 +36,7 @@ const steps = [
 const HowItWorks = () => {
   return (
     <section className="bg-white py-16 md:py-24 px-4">
-      <div className="max-w-7xl mx-auto text-center">
+      <div className="max-w-[1800px] mx-auto text-center">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl lg:text-[40px] font-semibold text-[#111827] mb-20 tracking-tight">
           How It Works

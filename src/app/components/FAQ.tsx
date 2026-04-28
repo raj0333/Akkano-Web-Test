@@ -13,23 +13,23 @@ export function FAQ() {
     },
     {
       question: 'Why do I need to take the Gallup® assessment separately?',
-      answer: 'You need to take the official assessment directly from Gallup® to ensure your results are authentic and based on their proprietary scientific research. We then use those official results to generate your custom relationship analysis.',
+      answer: 'The CliftonStrengths® 34 assessment is a gold-standard psychometric tool owned by Gallup®. To provide you with the most accurate relationship analysis, we need the raw data from their official reports. Think of it as the "blood test" results that allow us to provide your specific "medical" diagnosis and treatment plan.',
     },
     {
       question: 'How much does it cost?',
-      answer: 'Our Relationship Synergy Map bundle is a one-time fee of $129. Please note that the cost of the initial CliftonStrengths® 34 assessment from Gallup® is separate.',
+      answer: 'The total investment consists of two parts. First, each partner needs a CliftonStrengths® 34 report, which costs approximately $84–$90 per person and is purchased directly from store.gallup.com Second, choose your preferred bundle for the Relationship Synergy Map for $29 (for Basic Report) or for $129 (for Premium) before uploading both of your CliftonStrengths® 34 reports. You can find more details about the differences between these reports in our pricing section.',
     },
     {
       question: 'What if I have already taken the CliftonStrengths® assessment?',
-      answer: 'If you and your partner have already taken the CliftonStrengths® 34 assessment, you can simply upload your existing PDF reports during the checkout process. There is no need to take the test again.',
+      answer: 'You do not need to take the assessment again. Just upload your existing CliftonStrengths® 34 report, which should be 26 or 27 pages long. Can’t find your report, or only have the shorter reports? Retrieve the CliftonStrengths® 34 report from Gallup.com',
     },
     {
       question: 'What exactly will I see in the 12-page Relationship Synergy Map?',
-      answer: 'You will receive a comprehensive breakdown including the Dynamics Matrix, a Complementarity Roadmap, a Talent Gap Analysis, and a Conflict Heatmap, all designed to give you actionable insights into your partnership.',
+      answer: 'Your report is a detailed, easy-to-understand guide to your relationship dynamics. Inside, you’ll discover:\n\nWhere you and your partner naturally align\nHow your strengths complement each other\nPotential areas of misunderstanding or conflict\nReal-life scenarios explaining your dynamics\nPractical suggestions for improving communication and connection\n\nThe goal is not just awareness, but actionable insights you can apply immediately in your relationship.',
     },
     {
       question: 'What if our strengths are completely different? Are we incompatible?',
-      answer: 'Not at all! Completely different strengths often make for the most powerful partnerships because you complement each other. Our report will show you how to turn these differences into a unified advantage rather than a source of conflict.',
+      answer: 'Not at all. In fact, differences are often where the greatest growth and balance come from. This assessment doesn’t label couples as “compatible” or “incompatible.” Instead, it helps you understand how your differences work together and how to turn potential friction into strength. Many strong relationships are built on complementary traits. The key is learning how to recognize and work with them, rather than against them. ',
     },
   ];
 
